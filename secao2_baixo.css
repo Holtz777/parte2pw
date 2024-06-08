@@ -1,0 +1,61 @@
+body{
+    background-color: #001E2B;
+    color: white;
+}
+
+.box{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    margin: auto 0;
+}
+
+.mtitulo{
+    font-size:1.5rem;
+}
+
+.mtexto{
+    color:#96A3A3;
+}
+
+.caixa{
+    border: solid 0.1px rgba(255, 255, 255, 0.466);
+    border-radius: 14px;
+    margin-right: 2%;
+    width: 18%;
+    padding: 2%;
+    height: 150px;
+}
+
+.mseta{
+    margin-top: 8%;
+}
+
+#setinhatop{
+    color:greenyellow;
+}
+
+
+.caixa:hover{
+    background-color: #061621;
+    cursor: pointer;
+}
+
+@media (min-width:768px){
+
+    .box{
+
+        justify-content: center;
+        margin: auto 0;
+    }
+    .caixa {
+        width: 25%; 
+        
+    }
+    .mseta {
+        bottom: 1%; 
+    }
+
+}
